@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desi destinations</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  
+      <!-- font awesome cdn link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- customer css file link -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class ="logo"><span>T</span>ravel</a>
+
+        <nav class ="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class ="icons">
+            <i class ="fas fa-search" id="search-btn"></i>
+            <i class ="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action ="" class ="search-bar-container">
+            <input type="search" id ="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+<!-- header part end-->
+<!-- login form container-->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="#">click here</a></p>
+    <p>don't have and account? <a href="#">register  now</a></p>
+    </form>
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+<!-- home section -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>embark on a desi delight</h3>
+        <p>explore the hidden gems of india with desi destination</p>
+        <a href="#" class="btn">discover more</a>
+    </div> 
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="1ke.mp"></span>
+        <span class="vid-btn" data-src="3ro.mp4"></span>
+        <span class="vid-btn" data-src="4wa.mp4"></span>
+        <span class="vid-btn" data-src="2222222222.mp4"></span>
+        <span class="vid-btn" data-src="5ro.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="1ke.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!-- book section start -->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="Book-removebg-preview.png" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>wher to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>How many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Leaving</h3>
+                <input type="date">
+            </div> 
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section> 
+<!-- Book section ends -->
+<!-- package section starts -->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="Mumbai.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai</h3>
+                <p>Mumbai : A Giant Piece Of Soul. Every Time New Person Comes To Mumbai And Attach A New Oneself To This City Regardless Of Wherever You Go After That, It Travels With You, Enriching You</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 15000 <span>20000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Jaipur.png" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Jaipur</h3>
+                <p>Step Into The Royal World Of Jaipur And Be Mesmerized By Its Beauty. The Pink City Of India, Where Every Corner Tells A Story</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 10000 <span>13000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Goa.avif" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Goa</h3>
+                <p>Goa : Where The Sea Meets The Sky, The Perfect Place To Unwind And Relax.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 17000 <span>20000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Hampi.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Hampi</h3>
+                <p>Hampi : Where The Past Meets The Present, And The Beauty Of Both Entwines. An Architectural Wonderland.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 13000 <span>15000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Varanasi.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Varanasi</h3>
+                <p>Varanasi : The City That Inspires Love And Devotion. Discover The Roots Of India In The Alleys Of Varanasi.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 7000 <span>9000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="Agra.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Agra</h3>
+                <p>Agra : The City Of Love And Enchantment, Where The Taj Mahal Stands Tall, And Love Reigns Supreme.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">₹ 11000 <span>15000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- packages section ends -->
+<!-- services section starts -->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+   <div class="box-container">
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotel</h3>
+        <p>Affordable Hotel Our Website Can Help Customers Book Hotel Rooms, Find The Best Deals On Accommodations, And Arrange For Special Requests Like Bedding Or Room Location.</p>    
+    </div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>Food And Drinks Sip, Savor, Repeat, Food And Beverage Deligh! With Desi Destination.</p>    
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safty guide</h3>
+        <p>Safety Guide
+            Navigate The World Securely. Your Safety, Our Priority</p>    
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>Around The India
+            Roam, Relax, And Revel In India With Desi Destination.</p>    
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Fastest Travel
+            Our Website Can Help Customers Arrange For Ground Transportation, Such As Taxis, Shuttle Buses, Or Rental Cars.Jet-Set With Speed With Fast Travel Services.</p>    
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p>Adventures
+            Our Website Can Provide Customers With Information About Different Destinations, Including Cultural And Historical Information, Tourist Attractions, And Local Customs And Traditions.</p>    
+    </div>
+   </div>
+</section>
+<!-- services section ends -->
+<!-- gallery section starts -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>r</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="1.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Discover The Magic Of Kerala, Where Nature And Culture Blend Seamlessly🚣</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="2.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Explore The Epitome Of Love With Your Travel Buddies😉</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="3.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Lorem ipsum dolor sit amet consectetur  Quaerat, ut!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="4.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>In The Heart Of Ladakh, Where Landscapes Paint Dreams-Nubra Valley, Where Silence Is The Most Beautiful Sound🛣️</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="5.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>The Golden Temple Of Amritsar, A Place Where Dreams Merge With Divine😌</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="6.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>In The Heart Of Mathura, Where Love And Devotion Come To Life At Prem Mandir, That Resonates With The Love Of Lord Krishna🪶</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="7.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Jahaz Mahal, Where History's Secrets Whisper Through The Stone Walls🤠</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="8.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>n The Heart Of Trivandrum, The Napier Museum Where Every Artifact Tells A Story🖼️!</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="9.png" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>In The Serene Embrace Of Tawang, Where The Mountains Meet The Sky🗻</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!-- gallery section ends -->
+
+
+
+ <!-- review section starts -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        
+    </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="Review 5.avif" alt="">
+                    <h3> Advika Jain</h3>
+                    <p> Easy from go to end. Answered queries efficiently and we had a brilliant holiday</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="Review 4.avif" alt="">
+                    <h3>Rohan Roy</h3>
+                    <p> Fantastic Service! Will definitely use Desi Destination again.</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="Review 6.avif" alt="">
+                    <h3>Elizabeth Rosser</h3>
+                    <p> Great Service and Respond Quickly. Easy to Deal With</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="Review 5.avif" alt="">
+                    <h3> Advika Jain</h3>
+                    <p> Easy from go to end. Answered queries efficiently and we had a brilliant holiday</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="1lex.jfif" alt="">
+                    <h3> Samuel</h3>
+                    <p> I always have a great experience with Desi Destination. Thankyou for helping us create a great package deal for our family.</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--review section ends-->
+
+<!--contact section starts-->
+
+<section class="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="Cont.jfif" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+   </div>
+</section>
+
+<!--contact section ends-->
+
+<!--brand section -->
+
+<section class="brand-container">
+    
+    <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="H & M logo.ico" alt=""></div>
+        <div class="swiper-slide"><img src="kfc_folder_file_10296.ico" alt=""></div>
+        <div class="swiper-slide"><img src="twitter icon.ico" alt=""></div>
+        <div class="swiper-slide"><img src="youtube_logo_icon_167938.ico" alt=""></div>
+        <div class="swiper-slide"><img src="canon_logo_icon_181329.ico" alt=""></div>
+        <div class="swiper-slide"><img src="puma_logo_icon_181343.ico" alt=""></div>
+
+    </div>
+    </div>
+
+</section>
+
+<!--footer section -->
+
+<section class="footer">
+
+<div class="box-container">
+    <div class="box">
+        <h3>about us</h3>
+        <h1>🇦​​🇹​ ​🇩​​🇪​​🇸​​🇮​ ​🇩​​🇪​​🇸​​🇹​​🇮​​🇳​​🇦​​🇹​​🇮​​🇴​​🇳​,​🇼​​🇪 🇦​​🇷​​🇪</h1>
+        <h1>​🇵​​🇦​​🇸​​🇸​​🇮​​🇴​​🇳​​🇦​​🇹​​🇪​ ​🇦​​🇧​​🇴​​🇺​​🇹​ ​🇭​​🇪​​🇱​​🇵​​🇮​​🇳​​🇬​ ​🇵​​🇪​​🇴​​🇵​​🇱​​🇪</h1>
+        <h1>​🇭​​🇪​​🇱​​🇵​​🇮​​🇳​​🇬​ ​🇵​​🇪​​🇴​​🇵​​🇱​​🇪​ ​🇪​​🇽​​🇵​​🇱​​🇴​​🇷​​🇪​ ​🇹​​🇭​​🇪</h1>
+        <h1>​🇼​​🇴​​🇷​​🇱​​🇩​. ​🇼​​🇪​ ​🇧​​🇪​​🇱​​🇮​​🇪​​🇻​​🇪​ ​🇹​​🇭​​🇦​​🇹</h1>
+        <h1>​🇹​​🇷​​🇦​​🇻​​🇪​​🇱​ ​🇸​​🇭​​🇴​​🇺​​🇱​​🇩​ ​🇧​​🇪​ ​🇸​​🇺​​🇸​​🇹​​🇦​​🇮​​🇳​​🇦​​🇧​​🇱​​🇪</h1>
+        <h1>🇦​​🇳​​🇩​ ​🇷​​🇪​​🇸​​🇵​​🇴​​🇳​​🇸​​🇮​​🇧​​🇱​​🇪​. ​🇴​​🇺​​🇷​ ​🇲​​🇮​​🇸​​🇸​​🇮​​🇴​​🇳</h1>
+        <h1>🇮​​🇸​ ​🇹​​🇴​ ​🇲​​🇦​​🇰​​🇪​ ​🇹​​🇦​​🇻​​🇪​​🇱​ ​🇦​​🇨​​🇨​​🇪​​🇸​​🇸​​🇮​​🇧​​🇱​​🇪</h1>
+        <h1>🇦​​🇳​​🇩​ ​🇪​​🇳​​🇯​​🇴​​🇾​​🇦​​🇧​​🇱​​🇪​ ​🇫​​🇴​​🇷​ ​🇪​​🇻​​🇪​​🇷​​🇾​​🇴​​🇳​​🇪​.</h1>
+         </div>
+    <div class="box">
+        <h3>branch locations</h3>
+        <h2>Around the India</h2>
+        <!-- <a href="#">Andhra Pradesh</a> -->
+        <a href="#">Kerala</a>
+        <a href="#">Madhya Pradesh</a>
+        <a href="#">Maharashtra</a>
+        <a href="#">Goa</a>
+        <a href="#">Bihar</a>
+        <a href="#">Ladakh</a>
+        <a href="#">Jammu and Kashmir</a>
+    </div>
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">book</a>
+        <a href="#">packages</a>
+        <a href="#">services</a>
+        <a href="#">gallery</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+    </div>
+        <div class="box">
+            <h3>follow Us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+            <a href="#">youtube</a>
+            <a href="#">weChat</a>
+            <a href="#">yahoo</a>
+
+    </div>
+
+</div>
+
+<h1 class="credit"> created by |<span> Miss Laxmi Rahangdale 👩‍💻👩‍💻</span>  | all rights reserved! </h1>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <!-- customer js file link -->
+   <script src="script.js"></script>
+   
+</body>
+</html>
